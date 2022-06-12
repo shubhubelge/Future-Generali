@@ -1,0 +1,82 @@
+.banner-section{
+  background-color: rgb(50, 58, 65);
+  padding: 28px 0;
+  .banner-row{
+    display: flex;
+    .banner-col-one{
+      width: 32%;
+      .anil-img{
+        width: 100%;
+        margin-left: -10%;
+      }
+    }
+    .banner-col-two{
+      width: 36%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      .content{
+        .title{
+          font-size: 36px;
+          line-height: 48px;
+          color: #ffffff;
+          font-family: "Helvetica";
+        }
+        .buy-online{
+          font-size: 18px;
+          line-height: 32px;
+          color: #000000;
+          font-weight: 700;
+          font-family: "Lato";
+          border-radius: 5px;
+          background-color: #ffffff;
+          padding-left: 36px;
+          padding-right: 36px;
+          margin-top: 36px;
+        }
+      }
+    }
+    .banner-col-three{
+      width: 32%;
+      display: flex;
+      align-items: center;
+      .form-container{
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding: 28px 24px;
+
+        .submit-btn{
+          border-radius: 5px;
+          background-color: #323a41;
+          width: 100%;
+          font-size: 16px;
+          line-height: 32px;
+          color: #ffffff;
+          font-weight: 700;
+          font-family: "Lato";
+        }
+        .form-control{
+          border: 1px solid #c2c2c2;
+          font-size: 16px;
+          line-height: 26px;
+          &::placeholder {
+            font-size: 16px;
+            line-height: 45px;
+            color: #000000;
+            font-family: "Helvetica";
+          }
+          
+        }
+        .form-check-input:checked {
+          background-color: #e96349;
+          border: none;
+        }
+        .teams-condition{
+          font-size: 10px;
+          color: #6f6d6d;
+          font-family: "Helvetica";
+        }
+      }
+    }
+  }
+}

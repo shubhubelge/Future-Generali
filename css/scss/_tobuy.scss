@@ -1,0 +1,91 @@
+.to-buy{
+  position: relative;
+  left: 0;
+  top: 0;
+  padding: 36px 0 40px;
+  background-color: #eff2f2;
+  .top-reason{
+    position: absolute;
+    background-image: url('../../assets/images/left-logo.jpg');
+    background-color: #c52b27;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 480px;
+    left: 0;
+    top: -110px;
+    display: flex;
+    align-items: center;
+    // text-align: right;
+    // justify-content: right;
+    padding-left: 124px;
+    padding-right: 60px;
+    background-size: contain;
+    .text-contant{
+      font-size: 42px;
+      line-height: 50px;
+      color: #ffffff;
+      font-weight: 600;
+      font-family: "Helvetica Neue";
+      text-transform: uppercase;
+    }
+  }
+  
+  .reasons-items{
+    width: 1000px;
+    display: flex;
+    
+  }
+  .reasons-flex-container{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    .reasons-text-left{
+      width: 35%;
+      font-size: 27px;
+      color: #323a41;
+      font-weight: 500;
+      font-family: "Helvetica Neue";
+      text-align: left;
+      padding-left: 124px;
+    }
+    .reasons-items{
+      width: 65%;
+      display: flex;
+      justify-content: center;
+      padding: 32px 0;
+      .reasons-item{
+        // width: 325px;
+        width: 32%;
+        margin: 0.5%;
+        background-color: #ffffff;
+        padding:12px 12px 24px 28px ;
+        .title-box{
+          display: flex;
+          justify-content: space-between;
+          align-items: end;
+          .number{
+            width: auto;
+            font-size: 60px;
+            line-height: 45px;
+            color: #e3212a;
+            font-weight: bold;
+            font-family: "Helvetica";
+          }
+          .icon{
+            // width: 77px;
+            img{
+              height: 70px;
+            }
+          }
+        }
+        .subtitle{
+          font-size: 20px;
+          color: #323a41;
+          font-family: "Helvetica";
+        }
+      }
+    }
+  }
+}

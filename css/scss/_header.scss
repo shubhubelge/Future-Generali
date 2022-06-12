@@ -1,0 +1,34 @@
+.header-row{
+  display: flex;
+  .header-col-one{
+    width: 65%;
+    padding: 8px 0 8px 0;
+    padding-left: 12.5%;
+    .logo{
+      width: auto;
+    }
+  }
+  .header-col-two{
+    width: 35%;
+    background-color: $color-red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    justify-content: center;
+    .call-img{
+      width: 24px;
+      height: 24px;
+      border-radius: 50px;
+      margin-right: 8px;
+      
+    }
+    a{
+      font-size: 16px;
+      font-family: "Helvetica";
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+
+  }
+}
